@@ -1,0 +1,195 @@
+/* -------1200 */
+
+@media(max-width:1200px) {
+    .container {
+        max-width: 1024px;
+    }
+    .job .wrapper {
+        justify-content: space-evenly;
+    }
+    .count .container {
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    .count .card {
+        margin-bottom: 30px;
+    }
+    .services .wrapper .container {
+        justify-content: center;
+    }
+    .partners .wrapper {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .partners .item {
+        margin: 15px;
+    }
+}
+
+
+/* -------1024 */
+
+@media(max-width:1024px) {
+    .container {
+        max-width: 768px;
+    }
+    .about .company {
+        width: 100%;
+        max-width: 100%;
+    }
+    .about .image-block {
+        width: 100%;
+        margin: 30px 0;
+    }
+    .about .direct .list {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .about .direct .list-item {
+        width: auto;
+    }
+    .wrapper .icons {
+        display: none;
+    }
+    .form .form-left .form-input,
+    .form .form-left .form-btn {
+        max-width: 280px;
+    }
+    .form .form-left input::placeholder {
+        font-size: 16px;
+    }
+    .form .form-left .form-btn {
+        font-size: 17px;
+    }
+    .form .form-left .form-checkbox {
+        width: 100%;
+        max-width: 280px;
+        display: flex;
+        justify-content: center;
+    }
+    .form .form-right .network-icons {
+        display: flex;
+        justify-content: space-evenly;
+    }
+}
+
+
+/* -------768 */
+
+@media(max-width:768px) {
+    .container {
+        max-width: 425px;
+    }
+    .header {
+        position: fixed;
+        width: 100%;
+        z-index: 99999999;
+    }
+    .header-nav {
+        justify-content: center;
+        height: 60px;
+    }
+    .header-nav .menu {
+        display: none;
+    }
+    .main {
+        padding: 200px 0;
+    }
+    .form-card .form .form-left,
+    .form-card .form .form-right {
+        width: 100%;
+    }
+    .form .form-line {
+        display: none;
+    }
+    .form-right .form-info .fas {
+        font-size: 20px;
+    }
+    .form-right .form-info {
+        margin: 35px 0 25px 30px;
+        display: flex;
+        align-items: center;
+    }
+    .form-right .form-info .form-card-title,
+    .form-right .form-network-title {
+        font-size: 16px;
+    }
+    .form-right .form-info .form-card-adress {
+        font-size: 17px;
+    }
+    .form-right .form-network-title {
+        text-align: center;
+    }
+}
+
+
+/* -------425 */
+
+@media(max-width:425px) {
+    .container {
+        max-width: 100%;
+    }
+    .main-content .main-text {
+        font-size: 15px;
+        margin: 35px 0;
+    }
+    .main-content .main-link {
+        font-size: 15px;
+        padding: 15px 20px;
+    }
+    .job,
+    .count,
+    .partners,
+    .about,
+    .services {
+        padding: 50px 0;
+    }
+    .site-title {
+        font-size: 25px;
+    }
+    .site-subtitle {
+        font-size: 15px;
+    }
+    .about .direct .list-item {
+        font-size: 15px;
+        padding-left: 35px;
+        height: 25px;
+        background-size: 25px;
+    }
+    .about {
+        padding-bottom: 0;
+    }
+    .services .item {
+        width: 100%;
+    }
+    .services .item .top .number {
+        font-size: 40px;
+        margin-right: 20px;
+        line-height: 1;
+    }
+    .services .item .top .title {
+        font-size: 20px;
+    }
+    .services .item ul li {
+        font-size: 15px;
+        padding-left: 15px;
+    }
+    .services {
+        padding-bottom: 0;
+    }
+    .partners .wrapper {
+        margin: 25px 0;
+    }
+    .form-right .form-info {
+        margin: 35px 0 25px 10px;
+        display: flex;
+        align-items: center;
+    }
+    .form-right .form-info .form-card-title,
+    .form-right .form-network-title {
+        font-size: 15px;
+    }
+    .form-right .form-info .form-card-adress {
+        font-size: 16px;
+    }
+}

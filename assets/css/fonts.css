@@ -1,0 +1,30 @@
+/*  -------------> 400 */
+
+@font-face {
+    font-family: 'SF-400';
+    src: url(../Fonts/SF-UI/SFUIText-Regular.ttf);
+}
+
+
+/*  -------------> 500 */
+
+@font-face {
+    font-family: 'SF-500';
+    src: url(../Fonts/SF-UI/SFUIText-Medium.ttf);
+}
+
+
+/*  -------------> 700 */
+
+@font-face {
+    font-family: 'SF-700';
+    src: url(../Fonts/SF-UI/SFUIText-Bold.ttf);
+}
+
+
+/*  -------------> 800 */
+
+@font-face {
+    font-family: 'SF-800';
+    src: url(../Fonts/SF-UI/SFUIText-Heavy.ttf);
+}
